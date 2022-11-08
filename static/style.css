@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo {
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0px 14px;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+#logo img {
+    height: 40px;
+    filter: invert(1);
+    margin: 0px 12px;
+}
+
+#navbar {
+    background-color: rgb(246, 50, 50);
+    padding: 13px 8px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center;     ((apne content ko left side laane k liye justify-content ko hata diya )) */
+    align-items: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    padding: 16px 30px;
+    color: white;
+}
+
+#navbar li a:hover {
+    text-decoration: none;
+    padding: 16px 30px;
+    color: black;
+    font-weight: bold;
+}
+
+#introSection {
+    background: center/cover no-repeat url(https://images.unsplash.com/photo-1505527385992-63e06a393342?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZGFuY2UlMjBhY2FkZW15fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    color: white;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: red;
+    font-size: 65px;
+    flex-direction: column;
+}
+
+#introSection div.small {
+    font-size: 25px;
+    color: rgb(153, 238, 238);
+    padding: 5px;
+    margin: auto;
+}
+
+#missionSection {
+    height: 300px;
+    background-color: rgb(243, 223, 223);
+    width: 100%;
+
+}
+
+#missionSection h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.card {
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 10px;
+    width: 30%;
+    margin: 15px 20px;
+    height: 195px;
+
+}
+
+.card h3 {
+    text-align: center;
+    margin-top: 12px;
+    font-family: cursive;
+
+}
+
+.card-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-img {
+    height: inherit;
+    padding: 0px 14px;
+    margin: 0px 9px;
+}
+.card-img img{
+    height: 150px;
+    padding: 0px 14px;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content p{
+    font-size: 20px;
+}
+
+#sponsorsSection {
+    height: 300px;
+    background-color: rgba(205, 87, 87, 0.899);
+}
+
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: 13px auto;
+    
+}
+
+.spImage{
+    height: 180px;
+    margin: 20px;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 40px;
+    color: white;
+    background-color: rgb(84, 84, 84);
+    font-family: 'Times New Roman', Times, serif;
+}
